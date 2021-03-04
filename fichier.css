@@ -1,0 +1,101 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: cursive;
+
+}
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: red;
+	padding: 15px 0px;
+
+}
+.navbar .max-width{
+
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.logo span{
+	color: #000;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: black;
+	}
+.beur{
+	display: none;
+	position: absolute;
+}
+.menu li:hover.beur{
+	display: block;
+
+}
+.beur li{
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	border: 2px solid white;
+}
+.burr{
+	display: flex;
+}
+.child-left{
+	width: 25%;
+	height: 500px;
+	background-color: blue;
+	margin: 30px;
+
+}
+.child-right{
+	width: 25%;
+	height: 500px;
+	background-color: red;
+	margin: 30px;
+	margin-left: 10px;
+}
+.child-center{
+	width: 25%;
+	height: 500px;
+	background-color: blue;
+	margin: 30px;
+}
+.info1{
+	width: 50%;
+	height: 100%;
+	background-color: black;
+}
+.info2{
+	width: 50%;
+	height: 100%;
+	background-color: pink;
+}
+.info12{
+	height: : 30%;
+	margin: : 10px;
+	background-color: crimson;
+}
